@@ -121,7 +121,7 @@ let g:airline_powerline_fonts=1
 "" TagBar settings
 "=====================================================
 let g:tagbar_autofocus=0
-let g:tagbar_width=42
+let g:tagbar_width=34
 autocmd BufEnter *.py :call tagbar#autoopen(0)
 autocmd BufWinLeave *.py :TagbarClose
 
@@ -129,7 +129,7 @@ autocmd BufWinLeave *.py :TagbarClose
 "" NERDTree settings
 "=====================================================
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '__pycache__$']     " Ignore files in NERDTree
-let NERDTreeWinSize=40
+let NERDTreeWinSize=36
 autocmd VimEnter * if !argc() | NERDTree | endif  " Load NERDTree only if vim is run without arguments
 nmap " :NERDTreeToggle<CR>
 
